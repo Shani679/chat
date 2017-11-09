@@ -14,6 +14,6 @@ io.on('connection', socket=>{
 		socket.username=name;
 	})
 })
-http.listen(3003, ()=>{
+http.listen(80, ()=>{
 	console.log('server up');
 })
